@@ -1,0 +1,52 @@
+*{margin: 0;padding: 0;}
+
+.forgrid{
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    gap: 8px;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 16% 1fr 1fr 1fr;
+    grid-template-rows: 50px 170px 1fr 50px;
+    grid-template-areas: 
+    "header header header header"
+    "aside secone sectwo secthree"
+    "aside main main main"
+    "footer footer footer footer"   ;
+    
+}
+
+
+.aside{grid-area: aside;background-color: lightblue;}
+.header{grid-area: header;background-color: lightcoral;}
+.secone{grid-area: secone;background-color: lightgray;}
+.sectwo{grid-area: sectwo;background-color: lightskyblue;}
+.secthree{grid-area: secthree;background-color: lightsalmon;}
+.main{grid-area: main;background-color: lightgreen;}
+.footer{grid-area: footer;background-color: lightslategray;}
+
+
+
+
+.sectwo p{ font-size: 20px;    text-align: justify;}
+.secthree p {font-size: 20px;text-align: justify;}
+
+
+
+
+
+
+/* aside{ grid-area: aside;background-color: aquamarine;}
+
+header{ grid-area: header;background-color: azure;}
+
+.secone{ grid-area: secone;background-color: lightblue;}
+
+.sectwo{grid-area: sectwo;background-color: lightcoral;}
+
+.secthree{grid-area: secthree;background-color: lightgreen;}
+
+main{grid-area: main;background-color: lightseagreen;}
+
+footer{grid-area: footer;background-color: lightslategray;} */
